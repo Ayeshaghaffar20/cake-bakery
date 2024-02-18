@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-setting{
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.list-item{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: -3; 
+}
+
+.menu{
+    list-style: none;
+    text-transform: capitalize;
+    padding: 0 20px;
+    color:#4b4342;
+    cursor: pointer;
+}
+
+li:hover{
+    border-bottom: 2px solid #5fcac7;
+
+}
+
+.logo_img{
+    height: 120px;
+}
+
+.fa-brands{
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.fa-brands:hover{
+    border-bottom: 2px solid #5fcac7;
+
+}
+
+
+.round{
+    border-radius: 27px;
+    text-transform: capitalize;
+}
+
+.carousel-height{
+    
+}
+
+.text-setting{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: left;
+    font-size: 40px;
+    /* margin-right: 313px; */
+    margin-bottom: 230px;
+}
+
+.text-setting h2{
+    font-size: 80px;
+    /* text-align: justify; */
+}
+
+.bg-img{
+    /* background: url('images/cake-sweet-food-tasty.jpg') no-repeat center center/cover;
+    content: ""; */
+    position: relative;
+    /* opacity: 0.6; */
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    
+}
+.bg-img::before {
+     content: "";
+    background: url('images/cake-sweet-food-tasty.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    
+}
+
+.sweet-images{
+    display: flex;
+    flex-flow: row wrap  ;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.sweet-images img{
+    height: 180px;
+    margin: 40px;
+    border-radius: 20px;
+
+}
+
+
